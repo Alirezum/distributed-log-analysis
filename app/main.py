@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def main():
-    print("Hello from log-analysis!")
+    return {"status": "ok"}
 
 
 if __name__ == "__main__":
